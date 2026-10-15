@@ -40,8 +40,8 @@ class _SplashScreenUiState extends State<SplashScreenUi> {
           children: [
             Image.asset(
               'assets/images/taxi.png',
-              width: MediaQuery.of(context).size.height * 0.2,
-              height: MediaQuery.of(context).size.height * 0.2,
+              width: MediaQuery.of(context).size.height * 0.20,
+              height: MediaQuery.of(context).size.height * 0.20,
               fit: BoxFit.cover,
             ),
             Container(

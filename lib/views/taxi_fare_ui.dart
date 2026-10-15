@@ -14,7 +14,7 @@ class _TaxiFareUiState extends State<TaxiFareUi> {
   TextEditingController distanceCtrl = TextEditingController();
   TextEditingController timeCtrl = TextEditingController();
 
-  //ตัวแปร สำหรับเเสดงค่า BMI และการแปลผล
+  //ตัวแปร สำหรับเเสดงค่า Fare และการแปลผล
   String Fare = "0.00";
 
   @override
@@ -45,8 +45,8 @@ class _TaxiFareUiState extends State<TaxiFareUi> {
                     SizedBox(height: 20.0),
                     Image.asset(
                       'assets/images/taxi.png',
-                      width: MediaQuery.of(context).size.height * 0.15,
-                      height: MediaQuery.of(context).size.height * 0.15,
+                      width: MediaQuery.of(context).size.height * 0.25,
+                      height: MediaQuery.of(context).size.height * 0.25,
                       fit: BoxFit.cover,
                     ),
                     SizedBox(height: 20.0),
@@ -68,7 +68,7 @@ class _TaxiFareUiState extends State<TaxiFareUi> {
                             'ระยะทาง (กิโลเมตร) 🛣️',
                             style: TextStyle(
                               fontSize: 16.0,
-                              fontWeight: FontWeight.normal,
+                              fontWeight: FontWeight.bold,
                               color: Colors.black,
                             ),
                           ),
@@ -95,7 +95,7 @@ class _TaxiFareUiState extends State<TaxiFareUi> {
                             'เวลารถติด (นาที) ⏰',
                             style: TextStyle(
                               fontSize: 16.0,
-                              fontWeight: FontWeight.normal,
+                              fontWeight: FontWeight.bold,
                               color: Colors.black,
                             ),
                           ),
@@ -187,7 +187,7 @@ class _TaxiFareUiState extends State<TaxiFareUi> {
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 18.0,
-                          fontWeight: FontWeight.normal,
+                          fontWeight: FontWeight.bold,
                         ),
                       ),
                     ),
@@ -213,7 +213,7 @@ class _TaxiFareUiState extends State<TaxiFareUi> {
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 18.0,
-                          fontWeight: FontWeight.normal,
+                          fontWeight: FontWeight.bold,
                         ),
                       ),
                     ),
@@ -232,7 +232,7 @@ class _TaxiFareUiState extends State<TaxiFareUi> {
                             Text(
                               'ค่าโดยสารแท็กซี่',
                               style: TextStyle(
-                                fontWeight: FontWeight.bold,
+                                fontWeight: FontWeight.normal,
                                 fontSize: 20.0,
                               ),
                             ),
@@ -249,7 +249,7 @@ class _TaxiFareUiState extends State<TaxiFareUi> {
                             Text(
                               'บาท',
                               style: TextStyle(
-                                  fontWeight: FontWeight.bold,
+                                  fontWeight: FontWeight.normal,
                                   fontSize: 20.0,
                                   color: Colors.black),
                             ),
