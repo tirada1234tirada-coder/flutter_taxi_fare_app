@@ -24,7 +24,7 @@ class __FlutterTaxiFareappStateState extends State<_FlutterTaxiFareappState> {
       theme: ThemeData(
         textTheme: GoogleFonts.kanitTextTheme(
           Theme.of(context).textTheme,
-        )
+        ),
       ),
     );
   }
