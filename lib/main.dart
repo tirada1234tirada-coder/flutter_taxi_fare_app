@@ -1,3 +1,5 @@
+// ignore_for_file: unused_element_parameter
+
 import 'package:flutter/material.dart';
 import 'package:flutter_taxi_fare_app/views/splash_screen_ui.dart';
 import 'package:google_fonts/google_fonts.dart';
